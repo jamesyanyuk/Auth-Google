@@ -1,0 +1,30 @@
+{
+  "name": "auth-google",
+  "version": "0.0.1",
+  "description": "Google authentication library to make dealing with tokens easier, with automatic storage/refreshing.",
+  "main": "index.js",
+  "dependencies": {
+    "joi": "^5.0.2",
+    "co-request": "^0.2.0",
+    "mkdirp": "^0.5.0",
+    "open": "^0.0.5",
+    "request": "^2.51.0"
+  },
+  "devDependencies": {
+    "code": "^1.2.1",
+    "lab": "^5.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jyanyuk/Auth-Google.git"
+  },
+  "keywords": [
+    "google",
+    "auth"
+  ],
+  "author": "James Yanyuk",
+  "license": "ISC"
+}
