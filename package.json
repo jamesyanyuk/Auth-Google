@@ -1,6 +1,6 @@
 {
   "name": "auth-google",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Google authentication library to make dealing with tokens easier, with automatic storage/refreshing.",
   "main": "index.js",
   "files": [
