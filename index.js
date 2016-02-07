@@ -53,7 +53,7 @@ module.exports = function (options, callback) {
 		options.path = path.join(userDir('.config', options.name), 'token.json')
 		options.return_uri = "http://localhost:" + port
 
-		emit('loading-token', options.path) || console.log('Loading token from ' + options.path)
+		//emit('loading-token', options.path) || console.log('Loading token from ' + options.path)
 		loadStoredToken(options, function (error, token) {
 			if (error) return end(error)
 
